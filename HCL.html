@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample page</title>
+	<link rel="icon" type="image/jpg" href="/image/HCL.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="HCL.css" />
+    <script>
+        function hello(){
+            alert("Hai Everyone!! Have a great career with HCL");
+        }
+    </script>
+	<style>
+		body{
+			background-color:pink;
+			}
+	</style>
+	
+    
+</head>
+<body>
+	<h1>WELCOME TO HCL TECHNOLOGY</h1><br>
+	
+    <ul>
+        <li><a href="https://www.hcltech.com/" target="blank">Home</a></li>
+        <li><a href="https://www.hcltech.com/careers/Careers-in-india" target="blank">Careers</a></li>
+        <li><a href="https://www.hcltech.com/about-us/about-hcl-technologies" target="blank">About</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/HCL_Technologies" target="blank">Overview</a></li>
+    </ul>
+    <div>
+    <img src="" id="image">
+		
+		<script type="text/javascript">
+			let image = document.getElementById('image');
+			let images = ["image/A.jpg","image/HCLCamp.jpg","image/B.jpg","image/.cjpg","image/d.jpg",]
+			setInterval(function(){
+				let random = Math.floor(Math.random() * 4);
+				image.src=images[random];
+			},1000);
+		</script>
+    <p>HCL Technologies is an Indian multinational information technology services and consulting company headquartered in Noida. It is a subsidiary of HCL Enterprise. Originally a research and development division of HCL, it emerged as an independent company in 1991 when HCL entered into the software services business. Wikipedia
+Stock price: HCLTECH (NSE) ₹1,082.90 +32.70 (+3.11%)
+9 May, 3:30 pm IST - Disclaimer
+CEO: C Vijayakumar (Oct 2016–)
+Founded: 12 November 1991
+Headquarters: Noida
+Revenue: 1,118 crores USD (31 December 2021)
+Subsidiaries: HCL America, Inc., Actian, Geometric Limited, MORE
+Founders: Shiv Nadar, Arjun Malhotra
+Parent organization: HCL Enterprise</p><br>
+    </div>
+    <div id="button" style="display:inline-block">
+    <a href="https://www.hcltech.com/" target="_blank">Welcome to HCL Technologies family</a>
+    <button class="btn btn-primary" onclick="hello()">see more</button>
+    </div>
+	
+	
+</body>
+</html>
